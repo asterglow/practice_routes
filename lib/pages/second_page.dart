@@ -10,7 +10,7 @@ class _SecondPageState extends State<SecondPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lokesh\'s Second Page'),
+        title: Text('Second Page'),
         automaticallyImplyLeading: false,
       ),
       body: Center(
