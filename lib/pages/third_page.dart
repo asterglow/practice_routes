@@ -14,11 +14,11 @@ class _ThirdPageState extends State<ThirdPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lokesh\'s Third Page'),
+        title: Text('Third Page'),
       ),
       body: Center(
         child: ElevatedButton(
-          onPressed: () {Navigator.pop(context, 'Result of third page');},
+          onPressed: () {Navigator.pop(context, 'Result from third page');},
           child: Text(
             'Hi Mr.${widget.name}, go to first page',
           ),
